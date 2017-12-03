@@ -1,0 +1,11 @@
+# 应用名称
+spring:
+  application:
+    name: service-provider-a
+
+# Eureka注册中心地址配置
+eureka:
+  client:
+    serviceUrl:
+      # 服务注册中心的地址
+      defaultZone: http://localhost:1111/eureka

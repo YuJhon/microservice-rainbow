@@ -1,0 +1,15 @@
+# 项目的端口号配置
+server:
+  port: 1111
+
+# Eureka Server的配置
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 由于该应用为注册中心，所以配置该应用不向注册中心注册自己
+    register-with-eureka: false
+    # 注册中心的职责就是维护服务实例，所以不需要去检索服务
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
