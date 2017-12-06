@@ -1,0 +1,24 @@
+language: java
+jdk:
+  - oraclejdk8
+#  - openjdk7
+#  - openjdk6
+before_install:
+#  - mvn install -Dmaven.javadoc.skip=true
+   - "echo skipped"
+install:
+  - "echo skipped"
+services:
+  - redis-server
+  - mongodb
+  - memcached
+script:
+#  - "echo skipped"
+  - mvn install -Dmaven.javadoc.skip=true
+# - mvn deploy
+notifications:
+  email:
+    recipients:
+      - jhonrain@163.com
+    #on_success: [always|never|change]  default: change
+    #on_failure: [always|never|change]  default: always
