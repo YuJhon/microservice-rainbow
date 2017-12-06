@@ -1,4 +1,5 @@
 #### Spring Cloud 自学习
+* [![Build Status](https://www.travis-ci.org/YuJhon/microservice-rainbow.svg?branch=master)](https://www.travis-ci.org/YuJhon/microservice-rainbow)
 
 * 项目的结构
     ![ms-rainbow-project-struct](./photos/ms-rainbow-project-struct.png)
