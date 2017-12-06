@@ -10,5 +10,5 @@
     [2.Spring Cloud Eureka Service Provider项目,向注册中心注册服务](./ms-rainbow-eureka-provider-a/doc/1.Spring%20Cloud%20Eureka%20Service%20Provider项目.md)
 
 
-* 最新更新时间：2017-12-3（持续更新中...）
+* 最新更新时间：2017-12-6（持续更新中...）
  
