@@ -9,6 +9,10 @@
 
 	<modules>
 		<module>ms-rainbow-eureka-provider-a</module>
+		<module>ms-rainbow-eureka-cluster-server</module>
+		<module>ms-rainbow-eureka-cluster-provider</module>
+		<module>ms-rainbow-eureka-cluster-consumer</module>
+		<module>ms-rainbow-eurake-consumer-a</module>
 		<module>ms-rainbow-eureka-server-a</module>
 	</modules>
 	<packaging>pom</packaging>
@@ -40,6 +44,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!--lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 		</dependency>
 	</dependencies>
 

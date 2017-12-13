@@ -90,3 +90,14 @@ public class RainbowProviderController {
 　　到此，结合前面的注册中心，我们本节实现了，服务的注册！由于现在的注册中心是单体的，这样就会存在风险，因为在微服务架构的分布式环境中，需要充分
 考虑到发生故障的情况，所以在实际项目中，必须对各个组件进行高可用的部署。所以，对于我们这里搭建的注册中心，使用单节点是不符合要求的，下一节，
 就带领大家一步一步的实现注册中心的高可用部署，敬请期待。
+
+
+##### 六、彩蛋部分
+　　在前面我们获取服务实例的时候，我们调用了一个Deprecated的API,如下图所示：
+　　![DeprecatedAPI-Reference-01](./photos/DeprecatedAPI-Reference-01.png)
+
+　　通过查看源码，如下图所示：
+　　![Discovery-Client-Source-Code](./photos/Discovery-Client-Source-Code.png)
+   
+　　在SpringCloud新版本中，我们使用下面的代码进行替换：
+　　![New-API-Reference](./photos/New-API-Reference.png)

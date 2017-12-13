@@ -1,3 +1,4 @@
+
 # 应用名称
 spring:
   application:
@@ -9,3 +10,5 @@ eureka:
     serviceUrl:
       # 服务注册中心的地址
       defaultZone: http://localhost:1111/eureka
+server:
+  port: 10081
