@@ -14,5 +14,7 @@
 
     [4.Spring Cloud Eureka Cluster Server项目,搭建高可用的注册中心](./ms-rainbow-eureka-cluster-server/doc/1.Spring%20Cloud%20Eureka%20Cluster%20Server项目.md)
     
+    [5.Spring Cloud Eureka Cluster Consumer Ribbon项目,实现客户端的负载均衡](./ms-rainbow-eureka-cluster-provider/doc/1.Spring%20Cloud%20Ribbon%20客户端负载均衡.md)
+    
 
 * 最新更新时间：2017-12-13（持续更新中...）
