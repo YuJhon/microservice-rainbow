@@ -16,5 +16,6 @@
     
     [5.Spring Cloud Eureka Cluster Consumer Ribbon项目,实现客户端的负载均衡](./ms-rainbow-eureka-cluster-provider/doc/1.Spring%20Cloud%20Ribbon%20客户端负载均衡.md)
     
+    [6.Spring Cloud Eureka Feign Consumer 项目，实现Feign优雅的调用远程服务](./ms-rainbow-eureka-cluster-feign-consumer/doc/1.Spring%20Cloud%20Eureka%20Feign%20Consumer%20项目.md)
 
-* 最新更新时间：2017-12-13（持续更新中...）
+* 最新更新时间：2017-12-14（持续更新中...）

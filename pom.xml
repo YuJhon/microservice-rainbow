@@ -9,11 +9,13 @@
 
 	<modules>
 		<module>ms-rainbow-eureka-provider-a</module>
+		<module>ms-rainbow-eurake-consumer-a</module>
+		<module>ms-rainbow-eureka-server-a</module>
 		<module>ms-rainbow-eureka-cluster-server</module>
 		<module>ms-rainbow-eureka-cluster-provider</module>
 		<module>ms-rainbow-eureka-cluster-consumer</module>
-		<module>ms-rainbow-eurake-consumer-a</module>
-		<module>ms-rainbow-eureka-server-a</module>
+		<module>ms-rainbow-eureka-cluster-feign-consumer</module>
+		<module>ms-rainbow-eureka-model</module>
 	</modules>
 	<packaging>pom</packaging>
 

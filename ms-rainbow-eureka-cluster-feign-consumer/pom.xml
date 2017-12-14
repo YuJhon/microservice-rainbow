@@ -9,10 +9,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>ms-rainbow-eureka-cluster-provider</artifactId>
+	<artifactId>ms-rainbow-eureka-cluster-feign-consumer</artifactId>
 	<packaging>jar</packaging>
 
-	<name>ms-rainbow-eureka-cluster-provider</name>
+	<name>ms-rainbow-eureka-cluster-feign-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<dependencies>
@@ -20,12 +20,15 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
-        <dependency>
-            <groupId>com.jhon.rain</groupId>
-            <artifactId>ms-rainbow-eureka-model</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-    </dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.jhon.rain</groupId>
+			<artifactId>ms-rainbow-eureka-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
