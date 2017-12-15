@@ -1,16 +1,14 @@
-# æœåŠ¡æ¶ˆè´¹è€…çš„ç«¯å£å·
+# ·şÎñÏû·ÑÕßµÄ¶Ë¿ÚºÅ
 server:
-  port: 10012
+  port: 10011
 
-# æœåŠ¡æ¶ˆè´¹è€…çš„åç§°
+# ·şÎñÏû·ÑÕßµÄÃû³Æ
 spring:
   application:
-    name: cluster-feign-consumer-service
+    name: cluster-consumer-service
 
-# æ³¨å†Œä¸­å¿ƒçš„é›†ç¾¤åœ°å€
+# ×¢²áÖĞĞÄµÄ¼¯ÈºµØÖ·
 eureka:
   client:
     service-url:
       defaultZone: http://msrainbow-server-master:2222/eureka/,http://msrainbow-server-slave-one:3333/eureka/
-
-
