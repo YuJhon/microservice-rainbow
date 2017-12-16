@@ -1,16 +1,19 @@
+# 应用的端口
 server:
-  port: 10012
+  port: 10014
 
+# 应用的名称
 spring:
   application:
     name: cluster-feign-consumer-service
 
+# 注册中心集群
 eureka:
   client:
     service-url:
       defaultZone: http://msrainbow-server-master:2222/eureka/,http://msrainbow-server-slave-one:3333/eureka/
 
-
+# 开启hystrix
 feign:
   hystrix:
     enabled: true

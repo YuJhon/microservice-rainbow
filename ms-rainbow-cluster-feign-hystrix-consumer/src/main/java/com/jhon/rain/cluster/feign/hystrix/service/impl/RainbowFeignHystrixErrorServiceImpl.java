@@ -17,11 +17,13 @@ public class RainbowFeignHystrixErrorServiceImpl implements RainbowFeignHystrixS
 
   @Override
   public String getMethod() {
-    return "Sorry,Get Method Is Busy,Please Wait A Moment!";
+    return "Sorry,Feign Consumer Call Provider Service Get Method Is Busy," +
+            "Please Wait A Moment!";
   }
 
   @Override
   public String postMethod(RainbowDemoVO rainbowVO) {
-    return "Sorry,Post Method Is Busy,Please Wait A Moment!{"+rainbowVO.toString()+"}";
+    return "Sorry,Feign Consumer Call Provider Service Post Method Is Busy," +
+            "Please Wait A Moment!{"+rainbowVO.toString()+"}";
   }
 }

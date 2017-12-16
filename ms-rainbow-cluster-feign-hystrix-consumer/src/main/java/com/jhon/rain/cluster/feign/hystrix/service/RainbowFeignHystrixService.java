@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
- * <p>功能描述</br></p>
+ * <p>功能描述</br>业务逻辑定义接口</p>
  *
  * @author jiangy19
  * @version v1.0

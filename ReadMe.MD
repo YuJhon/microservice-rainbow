@@ -18,4 +18,8 @@
     
     [6.Spring Cloud Eureka Feign Consumer 项目，实现Feign优雅的调用远程服务](./ms-rainbow-eureka-cluster-feign-consumer/doc/1.Spring%20Cloud%20Eureka%20Feign%20Consumer%20项目.md)
 
+    [7.Spring Cloud 中Ribbon&Hystrix使用方式](./ms-rainbow-cluster-ribbon-hystrix-consumer/doc/1.Spring%20Cloud%20中Ribbon&Hystrix使用方式.md)
+    
+    [8.Spring Cloud 中Feigh&Hystrix使用方式](./ms-rainbow-cluster-feign-hystrix-consumer/doc/1.Spring%20Cloud%20Feign&Hystrix项目.md)
+    
 * 最新更新时间：2017-12-14（持续更新中...）

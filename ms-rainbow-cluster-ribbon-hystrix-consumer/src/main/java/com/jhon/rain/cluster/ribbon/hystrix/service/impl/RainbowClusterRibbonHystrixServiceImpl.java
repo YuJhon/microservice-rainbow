@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * <p>功能描述</br></p>
+ * <p>功能描述</br>服务的实现类</p>
  *
  * @author jiangy19
  * @version v1.0
@@ -15,7 +15,8 @@ import org.springframework.web.client.RestTemplate;
  * @date 2017/12/14 21:42
  */
 @Service
-public class RainbowClusterRibbonHystrixServiceImpl implements RainbowClusterRibbonHystrixService {
+public class RainbowClusterRibbonHystrixServiceImpl
+        implements RainbowClusterRibbonHystrixService {
 
   @Autowired
   private RestTemplate restTemplate;
@@ -23,7 +24,8 @@ public class RainbowClusterRibbonHystrixServiceImpl implements RainbowClusterRib
   @Override
   @HystrixCommand(fallbackMethod = "consumerError")
   public String consumerService() {
-    String providerMsg = restTemplate.getForEntity("http://CLUSTER-PROVIDER-SERVICE/provider", String.class).getBody();
+    String providerMsg = restTemplate.
+            getForEntity("http://CLUSTER-PROVIDER-SERVICE/provider", String.class).getBody();
     return "MSG FROM Rainbow Provider : <br/>" + providerMsg;
   }
 
@@ -32,6 +34,6 @@ public class RainbowClusterRibbonHystrixServiceImpl implements RainbowClusterRib
    * @return
    */
   public String consumerError() {
-    return "sorry,consumer service error!";
+    return "sorry,ribbon call consumer provider service error!";
   }
 }

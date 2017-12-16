@@ -31,5 +31,4 @@ public class RainbowFeignHystrixController {
   public String postMethodTest(@RequestBody RainbowDemoVO rainbowVO) {
     return client.postMethod(rainbowVO);
   }
-
 }

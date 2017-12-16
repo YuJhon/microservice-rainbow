@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * <p>功能描述</br></p>
+ * <p>功能描述</br>Ribbon方式的Hystrix测试控制器</p>
  *
  * @author jiangy19
  * @version v1.0

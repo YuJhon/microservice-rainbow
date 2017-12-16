@@ -27,9 +27,10 @@ public class RainbowClusterProviderController {
   private Registration registration;
 
   @RequestMapping("/provider")
-  public String index(){
+  public String index() throws InterruptedException {
     /** ServiceInstance instance = client.getLocalServiceInstance(); **/
     ServiceInstance instance = serviceInstance();
+    Thread.sleep(5000);
     log.info("/hello,host:{},service_id:{}",instance.getHost(),instance.getServiceId());
     return "Hello Rainbow Spring Cloud!";
   }

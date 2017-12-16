@@ -1,11 +1,11 @@
 # 服务消费者的端口号
 server:
-  port: 10011
+  port: 10013
 
 # 服务消费者的名称
 spring:
   application:
-    name: cluster-consumer-service
+    name: cluster-ribbon-consumer-service
 
 # 注册中心的集群地址
 eureka:
