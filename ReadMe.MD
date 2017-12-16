@@ -22,4 +22,4 @@
     
     [8.Spring Cloud 中Feigh&Hystrix使用方式](./ms-rainbow-cluster-feign-hystrix-consumer/doc/1.Spring%20Cloud%20Feign&Hystrix项目.md)
     
-* 最新更新时间：2017-12-14（持续更新中...）
+* 最新更新时间：2017-12-16（持续更新中...）
