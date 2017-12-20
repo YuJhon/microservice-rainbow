@@ -1,0 +1,23 @@
+# 应用的名称
+spring:
+  application:
+    name: cluster-ribbon-hystrix-turbine
+# 端口号
+server:
+  port: 20016
+
+# 注册中心的集群地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://msrainbow-server-master:2222/eureka/,http://msrainbow-server-slave-one:3333/eureka/
+
+# trubine的配置
+turbine:
+  app-config: cluster-ribbon-consumer-service
+  # 如果不配置这里，则监控的url需要为：host:port/turbine.stream?cluster=CUSTOMERS
+  cluster-name-expression: new String("default")
+  combine-host-port: true
+
+management:
+  port: 20017

@@ -20,8 +20,13 @@ public class RainbowClusterRibbonHystrixController {
   @Autowired
   private RainbowClusterRibbonHystrixService rainbowClusterRibbonHystrixService;
 
-  @RequestMapping("/consumer")
-  public String customer() {
-    return rainbowClusterRibbonHystrixService.consumerService();
+  @RequestMapping("/errorConsumer")
+  public String errorCustomer() {
+    return rainbowClusterRibbonHystrixService.notNormalConsumerService();
+  }
+
+  @RequestMapping("/normalConsumer")
+  public String normalCustomer() {
+    return rainbowClusterRibbonHystrixService.normalConsumerService();
   }
 }

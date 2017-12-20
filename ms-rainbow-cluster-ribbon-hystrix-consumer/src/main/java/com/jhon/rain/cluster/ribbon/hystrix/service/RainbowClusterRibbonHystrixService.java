@@ -10,5 +10,7 @@ package com.jhon.rain.cluster.ribbon.hystrix.service;
  */
 public interface RainbowClusterRibbonHystrixService {
 
-  String consumerService();
+  String notNormalConsumerService();
+
+  String normalConsumerService();
 }

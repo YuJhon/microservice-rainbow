@@ -35,6 +35,14 @@ public class RainbowClusterProviderController {
     return "Hello Rainbow Spring Cloud!";
   }
 
+  @RequestMapping("/normalProvider")
+  public String index2() throws InterruptedException {
+    /** ServiceInstance instance = client.getLocalServiceInstance(); **/
+    ServiceInstance instance = serviceInstance();
+    log.info("/hello,host:{},service_id:{}",instance.getHost(),instance.getServiceId());
+    return "Hello Rainbow Spring Cloud 2!";
+  }
+
   @PostMapping("/postIndex")
   public String postIndex(@RequestBody RainbowDemoVO rainbowVO){
     return rainbowVO.getName() + "--" + rainbowVO.getAddress();

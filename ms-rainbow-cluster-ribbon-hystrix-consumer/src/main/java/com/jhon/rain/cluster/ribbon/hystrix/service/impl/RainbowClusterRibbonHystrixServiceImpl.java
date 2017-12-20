@@ -23,9 +23,17 @@ public class RainbowClusterRibbonHystrixServiceImpl
 
   @Override
   @HystrixCommand(fallbackMethod = "consumerError")
-  public String consumerService() {
+  public String notNormalConsumerService() {
     String providerMsg = restTemplate.
             getForEntity("http://CLUSTER-PROVIDER-SERVICE/provider", String.class).getBody();
+    return "MSG FROM Rainbow Provider : <br/>" + providerMsg;
+  }
+
+  @Override
+  @HystrixCommand(fallbackMethod = "consumerError")
+  public String normalConsumerService() {
+    String providerMsg = restTemplate.
+            getForEntity("http://CLUSTER-PROVIDER-SERVICE/normalProvider", String.class).getBody();
     return "MSG FROM Rainbow Provider : <br/>" + providerMsg;
   }
 
