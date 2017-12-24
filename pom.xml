@@ -17,10 +17,10 @@
 		<module>ms-rainbow-eureka-cluster-ribbon-consumer</module>
 		<module>ms-rainbow-eureka-cluster-feign-consumer</module>
 		<module>ms-rainbow-cluster-ribbon-hystrix-consumer</module>
-		<module>ms-rainbow-cluster-ribbon-hystrix-consumer-amqp</module>
 		<module>ms-rainbow-cluster-ribbon-hystrix-turbine</module>
 		<module>ms-rainbow-cluster-feign-hystrix-consumer</module>
-		<module>ms-rainbow-cluster-ribbon-hystrix-turbine-amqp</module>
+		<!--<module>ms-rainbow-cluster-ribbon-hystrix-consumer-amqp</module>
+		<module>ms-rainbow-cluster-ribbon-hystrix-turbine-amqp</module>-->
 	</modules>
 	<packaging>pom</packaging>
 

@@ -1,21 +1,21 @@
-# Ó¦ÓÃµÄÃû³Æ
+# åº”ç”¨çš„åç§°
 spring:
   application:
     name: cluster-ribbon-hystrix-turbine
-# ¶Ë¿ÚºÅ
+# ç«¯å£å·
 server:
   port: 20016
 
-# ×¢²áÖĞĞÄµÄ¼¯ÈºµØÖ·
+# æ³¨å†Œä¸­å¿ƒçš„é›†ç¾¤åœ°å€
 eureka:
   client:
     service-url:
       defaultZone: http://msrainbow-server-master:2222/eureka/,http://msrainbow-server-slave-one:3333/eureka/
 
-# trubineµÄÅäÖÃ
+# trubineçš„é…ç½®
 turbine:
   app-config: cluster-ribbon-consumer-service
-  # Èç¹û²»ÅäÖÃÕâÀï£¬Ôò¼à¿ØµÄurlĞèÒªÎª£ºhost:port/turbine.stream?cluster=CUSTOMERS
+  # å¦‚æœä¸é…ç½®è¿™é‡Œï¼Œåˆ™ç›‘æ§çš„urléœ€è¦ä¸ºï¼šhost:port/turbine.stream?cluster=CUSTOMERS
   cluster-name-expression: new String("default")
   combine-host-port: true
 
