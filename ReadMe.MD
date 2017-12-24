@@ -22,4 +22,6 @@
     
     [8.Spring Cloud 中Feigh&Hystrix使用方式](./ms-rainbow-cluster-feign-hystrix-consumer/doc/1.Spring%20Cloud%20Feign&Hystrix项目.md)
     
-* 最新更新时间：2017-12-16（持续更新中...）
+    [9.Spring Cloud Ribbon-Hystrix-Dashboard Monitor](./ms-rainbow-cluster-ribbon-hystrix-turbine/doc/1.Spring%20Cloud%20Hystrix%20Dashboard%20Info%20Aggrate.md)
+
+* 最新更新时间：2017-12-24（持续更新中...）
