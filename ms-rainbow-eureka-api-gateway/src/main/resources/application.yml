@@ -1,0 +1,12 @@
+# 应用的名称
+spring:
+  application:
+    name: ms-rainbow-eureka-api-gateway
+# 启动端口号
+server:
+  port: 40001
+# 注册中心【由于Spring Cloud Zuul在整合了Eureka之后，具备默认的服务路由功能】
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://msrainbow-server-master:2222/eureka/,http://msrainbow-server-slave-one:3333/eureka/
