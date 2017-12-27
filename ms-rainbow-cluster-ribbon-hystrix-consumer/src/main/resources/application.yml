@@ -1,13 +1,13 @@
-# ·şÎñÏû·ÑÕßµÄ¶Ë¿ÚºÅ
+# æœåŠ¡æ¶ˆè´¹è€…çš„ç«¯å£å·
 server:
   port: 10013
 
-# ·şÎñÏû·ÑÕßµÄÃû³Æ
+# æœåŠ¡æ¶ˆè´¹è€…çš„åç§°
 spring:
   application:
     name: cluster-ribbon-consumer-service
 
-# ×¢²áÖĞĞÄµÄ¼¯ÈºµØÖ·
+# æ³¨å†Œä¸­å¿ƒçš„é›†ç¾¤åœ°å€
 eureka:
   client:
     service-url:

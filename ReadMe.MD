@@ -23,5 +23,9 @@
     [8.Spring Cloud 中Feigh&Hystrix使用方式](./ms-rainbow-cluster-feign-hystrix-consumer/doc/1.Spring%20Cloud%20Feign&Hystrix项目.md)
     
     [9.Spring Cloud Ribbon-Hystrix-Dashboard Monitor](./ms-rainbow-cluster-ribbon-hystrix-turbine/doc/1.Spring%20Cloud%20Hystrix%20Dashboard%20Info%20Aggrate.md)
+    
+    [10.Spring Cloud Eureka Zull Proxy -- API-GateWay，构建服务网关]()
+    
+    [11.Spring Cloud Config Server Center，实现配置文件的统一管理中心]()
 
-* 最新更新时间：2017-12-24（持续更新中...）
+* 最新更新时间：2017-12-27（持续更新中...）
