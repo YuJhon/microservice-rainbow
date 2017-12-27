@@ -24,7 +24,7 @@
     
     [9.Spring Cloud Ribbon-Hystrix-Dashboard Monitor](./ms-rainbow-cluster-ribbon-hystrix-turbine/doc/1.Spring%20Cloud%20Hystrix%20Dashboard%20Info%20Aggrate.md)
     
-    [10.Spring Cloud Eureka Zull Proxy -- API-GateWay，构建服务网关]()
+    [10.Spring Cloud Eureka Zull Proxy -- API-GateWay，构建服务网关](./ms-rainbow-eureka-api-gateway/doc/1.Spring%20Cloud%20Eureka%20Zull%20Proxy%20--API-Gateway.md)
     
     [11.Spring Cloud Config Server Center，实现配置文件的统一管理中心]()
 
